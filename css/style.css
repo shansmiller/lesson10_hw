@@ -13,8 +13,11 @@
     src: url(../fonts/CornerStoreJF.otf);
 }
 
+body{
+	margin: 0;
+}
 #banner img{
-	width:15%;
+	width:20%;
 	height:auto;
 	display: block;
 	margin-left: auto;
@@ -23,52 +26,50 @@
 }
 
 #bottles img{
-	width:130%;
+	width:110%;
 	height:auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding top: 5px;
+	margin: 0 auto;
 	margin-bottom: 0px;
+	position: absolute;
+	right:0px;
+
+}
+.titleText p{
+	margin: 5px;
+}
+
+#visitBottles img{
+	width:110%;
+	height:auto;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	position: absolute;
+	right:0px;
 
 }
 
 #homeBeers img{
-	width:70%;
+	width:65%;
 	height:auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 10px;
+	padding-top: 50px;
+	padding-bottom:1px;
 
 }
-
+.clearfix{
+	clear: both;
+}
 .homeImages{
 	padding-bottom: 0px;
 }
-
-.pints img{
-	width: 55%;
-	display: block;
-	float:left;
-	margin-left: auto;
-	margin-right: auto;	
-	margin-top: 1px;
-	padding-left: 50px;
-}
-
-.merch img{
-	width:50%;
-	display: block;
-	margin:auto;
-}
-
 
 .titleText{
 	font-family: CornerStoreJF;
 	font-size: 90px;
 	color: white;
-	margin-top: 5px;
+	margin:0px;
 	padding-top: 5px;
 	padding-left: 70px;
 	float:left;
@@ -77,12 +78,28 @@
 
 .pintText{
 	font-family: CornerStoreJF;
-	font-size: 30px;
+	font-size: 35px;
 	color: white;
-	padding-top: 80px;
+	padding-top: 50px;
+	padding-left:55px;
+	margin-top: 30px;
 	margin-bottom: 0px;
-	text-align: center;
+	text-align: right;
 }
+
+.pints{
+	margin-top: 245px;
+}
+.pints img{
+	width: 45%;
+	margin-top:-120px}
+
+.merch img{
+	width:50%;
+	display: block;
+	margin:auto;
+}
+
 
 #beerCircle{
 	background-color: #329406;
@@ -102,7 +119,6 @@
 	
 .aboutBox{
 	background-color: white;
-	margin-top: 5px;
 	height:620px;
 	width:750px;
 	float:left;	
@@ -177,5 +193,7 @@ footer {
 	font-family: GothamMed;
 	color:white;
 	clear:both;
+	position: relative;
+    top: 175px;
 }
 
