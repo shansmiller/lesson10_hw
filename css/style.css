@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: GothamLight;
+    src: url(../fonts/GothamLight.otf);
+}
+
+@font-face {
     font-family: CornerStoreJF;
     src: url(../fonts/CornerStoreJF.otf);
 }
@@ -85,11 +90,42 @@
 	width:350px;
 	border-radius:175px;
 	margin: auto;
-	margin-top: 75px;
-	
-	
+	margin-top: 75px;}
 
+.aboutText {
+	font-family: GothamLight;
+	font-size: 20px;
+	padding: 20px;
+	color: black;
 }
+
+	
+.aboutBox{
+	background-color: white;
+	margin-top: 5px;
+	height:620px;
+	width:750px;
+	float:left;	
+	margin-left: 60px;
+}
+
+.visitText {
+	font-family: GothamLight;
+	font-size: 20px;
+	padding: 20px;
+	color: black;
+}
+
+	
+.visitBox{
+	background-color: white;
+	margin-top: 5px;
+	height:150px;
+	width:750px;
+	float:left;	
+	margin-left: 60px;
+}
+
 
 #map img{
 	width: 700px;
