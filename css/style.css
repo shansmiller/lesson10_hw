@@ -3,6 +3,11 @@
     src: url(../fonts/GothamMed.otf);
 }
 
+@font-face {
+    font-family: CornerStoreJF;
+    src: url(../fonts/CornerStoreJF.otf);
+}
+
 #banner img{
 	width:15%;
 	height:auto;
@@ -37,7 +42,64 @@
 	padding-bottom: 0px;
 }
 
+.pints img{
+	width: 55%;
+	display: block;
+	float:left;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 1px;
+	padding-left: 50px;
+}
 
+.merch img{
+	width:50%;
+	display: block;
+	margin:auto;
+}
+
+
+.titleText{
+	font-family: CornerStoreJF;
+	font-size: 90px;
+	color: white;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-left: 70px;
+	float:left;
+
+}
+
+.pintText{
+	font-family: CornerStoreJF;
+	font-size: 30px;
+	color: white;
+	padding-top: 80px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#beerCircle{
+	background-color: #329406;
+	height:350px;
+	width:350px;
+	border-radius:175px;
+	margin: auto;
+	margin-top: 75px;
+	
+	
+
+}
+
+#map img{
+	width: 700px;
+	height: auto;
+	margin-top: 50px;
+	float:right;
+	padding-right: 60px;
+}
+
+	
 nav{}
 
 nav ul{
@@ -76,5 +138,8 @@ nav ul a:hover{
 footer {
 	text-align: center;
 	font-size: 8pt;
+	font-family: GothamMed;
+	color:white;
 	clear:both;
 }
+
