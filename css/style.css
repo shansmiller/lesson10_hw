@@ -4,13 +4,39 @@
 }
 
 #banner img{
-	width:20%;
+	width:15%;
 	height:auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 
 }
+
+#bottles img{
+	width:130%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding top: 5px;
+	margin-bottom: 0px;
+
+}
+
+#homeBeers img{
+	width:70%;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+
+}
+
+.homeImages{
+	padding-bottom: 0px;
+}
+
 
 nav{}
 
