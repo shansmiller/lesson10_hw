@@ -16,13 +16,17 @@
 body{
 	margin: 0;
 }
+
+.clearfix{
+	clear: both;
+}
+
 #banner img{
 	width:20%;
 	height:auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 #bottles img{
@@ -58,9 +62,7 @@ body{
 	padding-bottom:1px;
 
 }
-.clearfix{
-	clear: both;
-}
+
 .homeImages{
 	padding-bottom: 0px;
 }
@@ -101,7 +103,6 @@ body{
 	display: block;
 	padding:10px;
 	margin:auto;
-
 }
 
 .merch {
@@ -110,7 +111,6 @@ body{
 	margin-top:200px;
 	text-align:center;
 }
-
 
 #beerCircle{
 	background-color: #329406;
