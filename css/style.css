@@ -14,12 +14,79 @@
 }
 
 body{
-	margin: 0;
+	padding:0px;
+	margin: 0px;
 }
 
 .clearfix{
 	clear: both;
 }
+
+#lightbox{
+	position:absolute;
+	z-index: 1000;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.3);
+}
+
+#lbPint img{
+	width:60%;
+	height:auto;
+
+}
+
+#LightText{
+	margin:80px;
+}
+
+#lightBoxContentBox{
+	width:50%;
+	height:50%;
+	background:#329406;;
+	border-radius:30px;
+	/*trick to put a div in the middle*/
+	position: absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	text-align: center;
+	font-family: GothamLight;
+	color:white;
+
+}
+
+#closeBtn{
+	cursor: pointer;
+	background:white;
+	color:#329406;
+	padding: 10px;
+	text-align: center;
+	border: 0px;
+	border-radius: 30px;
+	margin: 30px;
+	font-size: 20px;
+	font-family: CornerStoreJF;
+
+}
+
+#noBtn{
+	cursor: pointer;
+	background:white;
+	color:#329406;
+	padding: 10px;
+	text-align: center;
+	border: 0px;
+	border-radius: 30px;
+	margin: 30px;
+	font-size: 20px;
+	font-family: CornerStoreJF;
+
+
+}
+
 
 #banner img{
 	width:20%;
@@ -112,14 +179,19 @@ body{
 	text-align:center;
 }
 
+.bCircle{
+	background-color: #329406;
+}
+
 #beerCircle{
 	background-color: #329406;
 	height:350px;
 	width:350px;
 	border-radius:175px;
 	margin: auto;
-	margin-top: 75px;}
-
+	margin-top: 75px;
+	cursor:pointer;
+}
 .aboutText {
 	font-family: GothamLight;
 	font-size: 20px;
@@ -142,8 +214,8 @@ body{
 	padding-left: 50px;
 	color: white;
 	margin-right: 30px;
-	margin-top: 110px;
-	line-height: 0.75;
+	margin-top: 60px;
+	line-height: 0.5;
 	text-align: center;
 	text-shadow: 2px 2px #000000;
 
@@ -160,14 +232,20 @@ body{
 
 }
 
+#socialIcons {
+	width: 60px;
+	margin-left: 130px;
+	margin-top: 110px;
 
+	
+}
 
 
 #map img{
 	width: 700px;
 	height: auto;
-	margin-top: 10px;
-	margin-right: 60px;
+	margin-top: -240px;
+	margin-right: 120px;
 	float:right;
 	text-align: center;
 }
