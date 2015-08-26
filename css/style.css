@@ -85,6 +85,7 @@ body{
 	margin-top: 30px;
 	margin-bottom: 0px;
 	text-align: center;
+	line-height: 1.15;
 	float: right;
 }
 
@@ -96,9 +97,18 @@ body{
 	margin-top:-240px}
 
 .merch img{
-	width:50%;
+	width:60%;
 	display: block;
+	padding:10px;
 	margin:auto;
+
+}
+
+.merch {
+	margin:auto;
+	width:60%;
+	margin-top:200px;
+	text-align:center;
 }
 
 
@@ -122,33 +132,44 @@ body{
 	background-color: white;
 	height:620px;
 	width:750px;
-	float: right;
+	margin-left: 80px;
+	margin-top: 15px;
 }
 
 .visitText {
-	font-family: GothamLight;
+	font-family: GothamMed;
 	font-size: 20px;
-	padding: 20px;
-	color: black;
+	padding-left: 50px;
+	color: white;
+	margin-right: 30px;
+	margin-top: 110px;
+	line-height: 0.75;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+
 }
 
-	
-.visitBox{
-	background-color: white;
-	margin-top: 5px;
-	height:150px;
-	width:750px;
-	float:left;	
-	margin-left: 60px;
+.subVistText{
+	font-family: CornerStoreJF;
+	font-size: 38px;
+	color: #329406;
+	margin:0px;
+	margin-top: -60px;
+	padding-left: 70px;
+	float:left;
+
 }
+
+
 
 
 #map img{
 	width: 700px;
 	height: auto;
-	margin-top: 50px;
+	margin-top: 10px;
+	margin-right: 60px;
 	float:right;
-	padding-right: 60px;
+	text-align: center;
 }
 
 	
