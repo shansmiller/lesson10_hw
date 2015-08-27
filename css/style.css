@@ -76,7 +76,7 @@ body{
 	text-align: center;
 	border: 0px;
 	border-radius: 30px;
-	margin: 50px;
+	margin: 20px;
 	font-size: 20px;
 	font-family: CornerStoreJF;
 
@@ -90,7 +90,7 @@ body{
 	text-align: center;
 	border: 0px;
 	border-radius: 30px;
-	margin: 50px;
+	margin: 20px;
 	font-size: 20px;
 	font-family: CornerStoreJF;
 
@@ -176,6 +176,17 @@ body{
 	margin-top:-240px
 }
 
+.subMerchText{
+	font-family: CornerStoreJF;
+	font-size: 38px;
+	color: #329406;
+	margin:0px;
+	margin-top: 100px;
+	padding-left: 70px;
+	padding-right: 60px;
+	float:right;
+
+}
 
 .merch img{
 	width:60%;
@@ -192,7 +203,7 @@ body{
 	text-align:center;
 }
 
-.price{
+#price{
 	background-color: #329406;
 	height: 100px;
 	width: 100px;
@@ -200,17 +211,62 @@ body{
 	font-family: GothamMed;
 	font-size: 35px;
 	color:white;
+	visibility: hidden;
 	text-align: center;
 	line-height: 3.0;
 	margin-top: -80px;
 	margin-left: 120px;
+
 }
 
-.bCircle{
+#priceB{
 	background-color: #329406;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	font-family: GothamMed;
+	font-size: 35px;
+	color:white;
+	visibility: hidden;
+	text-align: center;
+	line-height: 3.0;
+	margin-top: -80px;
+	margin-left: 120px;
+
 }
 
-#beerCircle{
+#priceC{
+	background-color: #329406;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	font-family: GothamMed;
+	font-size: 35px;
+	color:white;
+	visibility: hidden;
+	text-align: center;
+	line-height: 3.0;
+	margin-top: -80px;
+	margin-left: 120px;
+
+}
+#priceD{
+	background-color: #329406;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	font-family: GothamMed;
+	font-size: 35px;
+	color:white;
+	visibility: hidden;
+	text-align: center;
+	line-height: 3.0;
+	margin-top: -80px;
+	margin-left: 120px;
+
+}
+
+.beerCircle{
 	background-color: #329406;
 	height:350px;
 	width:350px;
@@ -219,6 +275,18 @@ body{
 	margin-top: 75px;
 	cursor:pointer;
 }
+
+
+#bcA{
+	background-color: #329406;
+	height:350px;
+	width:350px;
+	border-radius:175px;
+	margin: auto;
+	margin-top: 75px;
+	cursor:pointer;
+}
+
 .aboutText {
 	font-family: GothamLight;
 	font-size: 20px;
@@ -272,7 +340,7 @@ body{
 	width: 700px;
 	height: auto;
 	margin-top: -240px;
-	margin-right: 120px;
+	margin-right: 160px;
 	float:right;
 	text-align: center;
 }
