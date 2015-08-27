@@ -22,6 +22,14 @@ body{
 	clear: both;
 }
 
+#lightbox img{
+	width:68%;
+	height:auto;
+	padding-left: 150px;
+	padding-top: 150px;
+	opacity: 0.9;
+}
+
 #lightbox{
 	position:absolute;
 	z-index: 1000;
@@ -36,17 +44,18 @@ body{
 
 }
 
-#LightText{
-	margin:80px;
-}
+
 
 #lightBoxContentBox{
-	width:50%;
-	height:50%;
-	background:#329406;;
-	border-radius:30px;
+	/*width:50%;*/
+	/*height:50%;*/
+	/*background:#329406;;*/
+	/*border-radius:30px;*/
 	/*trick to put a div in the middle*/
 	position: absolute;
+	padding-top: 200px;
+	padding-left: 350px;
+	padding-right:300px;
 	top:0px;
 	bottom:0px;
 	left:0px;
@@ -54,6 +63,7 @@ body{
 	margin:auto;
 	text-align: center;
 	font-family: GothamLight;
+	font-size: 20px;
 	color:white;
 
 }
@@ -66,7 +76,7 @@ body{
 	text-align: center;
 	border: 0px;
 	border-radius: 30px;
-	margin: 30px;
+	margin: 50px;
 	font-size: 20px;
 	font-family: CornerStoreJF;
 
@@ -80,7 +90,7 @@ body{
 	text-align: center;
 	border: 0px;
 	border-radius: 30px;
-	margin: 30px;
+	margin: 50px;
 	font-size: 20px;
 	font-family: CornerStoreJF;
 
@@ -295,4 +305,3 @@ footer {
 	position: relative;
     top: 175px;
 }
-
